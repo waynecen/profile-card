@@ -13,7 +13,7 @@
 
 /* Spacer */
 .spacer {
-  height: 216px;
+  height: 232px;
 }
 
 /* Card */
@@ -24,10 +24,9 @@
   font-family: "Inter", sans-serif;
   font-size: 16px;
   color: rgb(247,247,247);
-  width: 270px;
+  width: 318px;
   border-radius: 12px;
   background-color: #1A1B21;
-  padding: 24px 24px 24px 24px;
 }
 
 a {
@@ -77,7 +76,10 @@ a:hover {
 .container__button {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-left: 24px;
+  margin-right: 24px;
+  gap: 16px;
 }
 
 button {
@@ -113,7 +115,7 @@ button svg {
 
 /* About, Interests */
 .About, .Interests {
-  margin-bottom: 24px;
+  margin: 24px;
 }
 
 h3 {
@@ -123,4 +125,27 @@ h3 {
 p {
   font-size: 0.8rem;
   font-weight: 300;
+}
+
+/* Footer */
+.footer {
+  background-color:#161619;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+
+.footer svg {
+  color: white;
+  opacity: 0.4;
+  width: auto;
+  height: 20px;
+  margin: 12px;
+  transition: opacity .195s ease-in-out;
+}
+
+.footer svg:hover {
+  opacity: 1;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Icon from "./Icon";
 
 const STYLES = ["btn--primary", "btn--accent"];
 
@@ -10,7 +10,7 @@ export default function Button({ text, icon, buttonStyle }) {
 
 	return (
 		<button className={`${checkButtonStyle}`}>
-			<FontAwesomeIcon icon={icon} />
+			<Icon icon={icon} />
 			<p>{text}</p>
 		</button>
 	);
