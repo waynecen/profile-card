@@ -1,23 +1,31 @@
 import React from "react";
-import portrait from "../img/portrait.png";
 import Button from "./Button";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Info() {
 	return (
-		<div className="Info">
-			<img
-				className="Portrait"
-				src={portrait}
-				alt="portrait of Wayne Cen"
-			/>
-			<h1 className="Name">Wayne Cen</h1>
-			<h2 className="Subtitle">Frontend Developer</h2>
-			<a href="https://waynecen.com">
-				<h3>waynecen.com</h3>
+		<div className="info">
+			<h1 className="name">Wayne Cen</h1>
+			<h3 className="subtitle">Frontend Developer</h3>
+			<a className="link__site" href="https://waynecen.com">
+				waynecen.com
 			</a>
-			<div className="flex-row">
-				<Button text="Email" />
-				<Button text="LinkedIn" />
+			<div className="container__button">
+				<a href="mailto:waynecen@gmail.com">
+					<Button
+						buttonStyle="btn--primary"
+						text="Email"
+						icon={faEnvelope}
+					/>
+				</a>
+				<a href="https://github.com/waynecen">
+					<Button
+						buttonStyle="btn--accent"
+						text="GitHub"
+						icon={faGithub}
+					/>
+				</a>
 			</div>
 		</div>
 	);
