@@ -5,10 +5,10 @@ export default function About() {
 		<div className="About">
 			<h3>About</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-				molestie, tortor eget auctor dictum, est nulla aliquet augue,
-				nec rhoncus sapien nisi quis metus. Nullam at orci consectetur,
-				fermentum erat sed, pretium quam.
+				Wayne Cen is self-taught developer with a Bachelor of Design
+				from York University in Toronto, Canada. Specializing in
+				frontend web development, his background in design aids in
+				creating user-friendly and intuitive digital experiences.
 			</p>
 		</div>
 	);

@@ -5,10 +5,9 @@ export default function Interests() {
 		<div className="Interests">
 			<h3>Interests</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-				molestie, tortor eget auctor dictum, est nulla aliquet augue,
-				nec rhoncus sapien nisi quis metus. Nullam at orci consectetur,
-				fermentum erat sed, pretium quam.
+				When he is not studying design or programming, he is enjoying
+				the leisure of sports and video games. More specifically,
+				volleyball, tennis, and badminton.
 			</p>
 		</div>
 	);
