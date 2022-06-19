@@ -1,9 +1,9 @@
-# <div align="center"><center>Profile Card</div>
+# Profile Card
 
-A profile card created using functional components in React.
-  
+A profile card displaying general information about me, created using functional components in React.
+
 ## 🏃 Motivation
-This project was created to exercise and learn React, specifically how to use functional components to create composable designs.
+This project was created as an exercise to learn React, specifically using functional components to create composable designs.
   
 Preview
 ---
